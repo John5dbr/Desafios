@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@media(max-width:) {
+
+} 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 10%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 14vh;
+    padding: 10px ;
+    font-family: 'Passion One';
+}
+
+p {
+    margin: 100px 20px;
+    line-height: 11vh;
+    font-size: 5vh;
+    padding: 15px;
+    font-family: 'Sriracha';
+}
+
+#texto { 
+    color: white;
+    background: rgba(0, 0, 0, 0.589);
+    width: 80vh;
+    height: 110vh;
+    position: absolute;
+    bottom: 60%;
+    transform: translateY(60%);
+}
+
+#img {
+    position: relative;
+    background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
+    height: 900px;
+    background-size: cover;
+}
