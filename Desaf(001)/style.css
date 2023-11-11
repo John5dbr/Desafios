@@ -10,7 +10,6 @@
 header {
     width: 100%;
     position: relative;
-    height: 40vh;
     background: black;
     color: white;
     text-align: center;
@@ -22,7 +21,18 @@ h1 {
     padding-top: 20px;
 }
 
+header > p, a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
 header > p {
+    color: white;
     line-height: 11vh;
     font-size: 3vh;
     padding: 15px;
@@ -40,7 +50,7 @@ article > p {
 #texto { 
     color: white;
     background: rgba(0, 0, 0, 0.589);
-    width: 90%;
+    width: 85%;
     height: 110vh;
     position: absolute;
     bottom: 60%;
@@ -61,10 +71,17 @@ article > p {
     background-size: cover;
 }
 
+footer {
+    font: 1.1em 'verdana';
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 5px;
+    
+}
+
 @media (max-width: 530px) {
-    header {
-        height: 50vh;
-    }
+    
 } 
 
 @media (max-width: 400px) {
