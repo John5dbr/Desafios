@@ -91,6 +91,7 @@ footer {
         font-family: 'Sriracha';
     }
     #texto { 
+        text-align: center;
         max-width: 500px;
         color: rgb(255, 255, 255);
         background: rgba(0, 0, 0, 0.589);
