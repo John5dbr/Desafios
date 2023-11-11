@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 14vh;
+    font-family: 'Passion One';
+    padding-top: 20px;
+}
+
+header > p, a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+header > p {
+    color: white;
+    line-height: 11vh;
+    font-size: 3vh;
+    padding: 15px;
+    font-family: 'Sriracha';
+} 
+
+article > p {
+    margin: 100px 20px;
+    line-height: 11vh;
+    font-size: 5vh;
+    padding: 15px;
+    font-family: 'Sriracha';
+}
+
+#texto { 
+    max-width: 500px;
+    color: white;
+    background: rgba(0, 0, 0, 0.589);
+    width: 85%;
+    height: 110vh;
+    position: absolute;
+    bottom: 60%;
+    transform: translateY(60%);
+}
+
+#img2 {
+    background: url('InforExtra/imagens/background002.jpg') fixed;
+    position: relative;
+    height: 900px;
+    background-size: cover;
+    box-shadow: inset 0px 0px 13px 0px black;
+}
+
+#img {
+    position: relative;
+    background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
+    height: 900px;
+    background-size: cover;
+    box-shadow: inset 0px 0px 13px 0px black;
+}
+
+footer {
+    font: 1.1em 'verdana';
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 5px;
+    
+}
+
+@media (max-width: 1000px) {
+    article > p {
+        margin: 20px 20px;
+        line-height: 5vh;
+        font-size: 0.8em;
+        font-family: 'Sriracha';
+    }
+    #texto { 
+        text-align: center;
+        max-width: 500px;
+        color: rgb(255, 255, 255);
+        background: rgba(0, 0, 0, 0.589);
+        width: 85%;
+        height: 47vh;
+        position: absolute;
+        bottom: 60%;
+        transform: translateY(60%);
+    }
+    #img2 {
+        background: url('InforExtra/imagens/background002.jpg') fixed;
+        position: relative;
+        height: 370px;
+        background-size: cover;
+        box-shadow: inset 0px 0px 13px 0px black;
+    }
+    #img {
+        position: relative;
+        background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
+        height: 370px;
+        background-size: cover;
+        box-shadow: inset 0px 0px 13px 0px black;
+    }
+    footer {
+        font-size: 0.7em;
+    }
+}
