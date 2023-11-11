@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@media (max-width: 530px) {
-    header {
-        height: 200vh;
-    }
-} 
 
 * {
     margin: 0px;
@@ -29,7 +24,7 @@ h1 {
 
 header > p {
     line-height: 11vh;
-    font-size: 5vh;
+    font-size: 3vh;
     padding: 15px;
     font-family: 'Sriracha';
 } 
@@ -52,9 +47,26 @@ article > p {
     transform: translateY(60%);
 }
 
+#img2 {
+    background: url('InforExtra/imagens/background002.jpg') fixed;
+    position: relative;
+    height: 900px;
+    background-size: cover;
+}
+
 #img {
     position: relative;
     background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
     height: 900px;
     background-size: cover;
+}
+
+@media (max-width: 530px) {
+    header {
+        height: 50vh;
+    }
+} 
+
+@media (max-width: 400px) {
+
 }
