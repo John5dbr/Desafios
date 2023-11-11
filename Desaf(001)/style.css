@@ -92,7 +92,7 @@ footer {
     }
     #texto { 
         max-width: 500px;
-        color: white;
+        color: rgb(255, 0, 0);
         background: rgba(0, 0, 0, 0.589);
         width: 85%;
         height: 45vh;
