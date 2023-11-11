@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@media(max-width:) {
-
+@media (max-width: 530px) {
+    header {
+        height: 200vh;
+    }
 } 
 
 * {
@@ -11,7 +13,9 @@
 }
 
 header {
-    height: 10%;
+    width: 100%;
+    position: relative;
+    height: 40vh;
     background: black;
     color: white;
     text-align: center;
@@ -19,11 +23,18 @@ header {
 
 h1 {
     font-size: 14vh;
-    padding: 10px ;
     font-family: 'Passion One';
+    padding-top: 20px;
 }
 
-p {
+header > p {
+    line-height: 11vh;
+    font-size: 5vh;
+    padding: 15px;
+    font-family: 'Sriracha';
+} 
+
+article > p {
     margin: 100px 20px;
     line-height: 11vh;
     font-size: 5vh;
@@ -34,7 +45,7 @@ p {
 #texto { 
     color: white;
     background: rgba(0, 0, 0, 0.589);
-    width: 80vh;
+    width: 90%;
     height: 110vh;
     position: absolute;
     bottom: 60%;
