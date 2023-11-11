@@ -87,7 +87,7 @@ footer {
     article > p {
         margin: 20px 20px;
         line-height: 5vh;
-        font-size: 0.9em;
+        font-size: 12px;
         font-family: 'Sriracha';
     }
     #texto { 
