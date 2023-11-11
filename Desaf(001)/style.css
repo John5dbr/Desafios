@@ -87,15 +87,15 @@ footer {
     article > p {
         margin: 20px 20px;
         line-height: 5vh;
-        font-size: 0.2em;
+        font-size: 0.8em;
         font-family: 'Sriracha';
     }
     #texto { 
         max-width: 500px;
-        color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
         background: rgba(0, 0, 0, 0.589);
         width: 85%;
-        height: 45vh;
+        height: 47vh;
         position: absolute;
         bottom: 60%;
         transform: translateY(60%);
