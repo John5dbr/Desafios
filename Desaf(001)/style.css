@@ -48,6 +48,7 @@ article > p {
 }
 
 #texto { 
+    max-width: 500px;
     color: white;
     background: rgba(0, 0, 0, 0.589);
     width: 85%;
@@ -62,6 +63,7 @@ article > p {
     position: relative;
     height: 900px;
     background-size: cover;
+    box-shadow: inset 0px 0px 13px 0px black;
 }
 
 #img {
@@ -69,6 +71,7 @@ article > p {
     background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
     height: 900px;
     background-size: cover;
+    box-shadow: inset 0px 0px 13px 0px black;
 }
 
 footer {
@@ -80,10 +83,39 @@ footer {
     
 }
 
-@media (max-width: 530px) {
-    
-} 
-
-@media (max-width: 400px) {
-
+@media (max-width: 350px) {
+    article > p {
+        margin: 20px 20px;
+        line-height: 7vh;
+        font-size: 1.1em;
+        padding: 0px;
+        font-family: 'Sriracha';
+    }
+    #texto { 
+        max-width: 500px;
+        color: white;
+        background: rgba(0, 0, 0, 0.589);
+        width: 85%;
+        height: 55vh;
+        position: absolute;
+        bottom: 60%;
+        transform: translateY(60%);
+    }
+    #img2 {
+        background: url('InforExtra/imagens/background002.jpg') fixed;
+        position: relative;
+        height: 600px;
+        background-size: cover;
+        box-shadow: inset 0px 0px 13px 0px black;
+    }
+    #img {
+        position: relative;
+        background: url('InforExtra/imagens/background001.jpg') no-repeat center center fixed;
+        height: 500px;
+        background-size: cover;
+        box-shadow: inset 0px 0px 13px 0px black;
+    }
+    footer {
+        font-size: 0.8em;
+    }
 }
