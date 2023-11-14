@@ -1,0 +1,18 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('Imagens/pexels-cottonbro-studio-6214934.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(255, 255, 255, 0));
+    background-size: cover;
+}
